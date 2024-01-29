@@ -76,7 +76,7 @@ def main():
     transport_layer = TransportLayer(network_layer)
     application_layer = ApplicationLayer(transport_layer)
 
-    message = "Hello, World!"
+    message = "Applied computer networking"
     print("Original message:", message)
     print()
 
